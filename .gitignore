@@ -30,3 +30,49 @@
 *.exe
 *.out
 *.app
+
+# Diretórios de build
+build/
+bin/
+obj/
+ParseTree/output/
+
+# Arquivos de debug
+*.dSYM/
+*.pdb
+*.ilk
+
+# Arquivos temporários
+*.tmp
+*.temp
+*~
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos do IDE
+.vscode/
+.vs/
+*.vcxproj.user
+*.sln
+*.vcxproj
+*.filters
+
+# Arquivos de configuração local
+.env
+config.local.*
+
+# Logs
+*.log
+
+# Arquivos de backup
+*.bak
+*.backup
+*.swp
+*.swo
+
+# Arquivos de saída específicos do projeto
+output.txt
+result.txt
